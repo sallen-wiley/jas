@@ -1,11 +1,13 @@
 function genSiteMap() {
     $(document).ready(function(){
         if (location.hostname == "jas.bss.design") {
-            console.log("ths is the bss site");
+            // console.log("ths is the bss site");
+            var siteMapLoc = 'https://jas.bss.design/sitemap.xml'
         } else if (location.hostname == "sallen-wiley.github.io") {
-            console.log("ths is the git pages site");
+            // console.log("ths is the git pages site");
+            var siteMapLoc = 'https://sallen-wiley.github.io/jas/sitemap.xml'
         };
-        $.get('/sitemap.xml', function(d){
+        $.get(siteMapLoc, function(d){
             // alert( "Load was performed." );
             $(d).find('loc').each(function(){
                 var $page = $(this);
