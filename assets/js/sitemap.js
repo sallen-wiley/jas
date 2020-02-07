@@ -1,8 +1,8 @@
 function genSiteMap() {
     $(document).ready(function(){
-        if ($.get('https://jas.bss.design/sitemap.xml')) {
+        if ($.get('/sitemap.xml')) {
             console.log("ths is the bss site");
-        } else if ($.get('https://sallen-wiley.github.io/jas/sitemap.xml')) {
+        } else if ($.get('/jas/sitemap.xml')) {
             console.log("ths is the git pages site");
         };
         $.get('/sitemap.xml', function(d){
