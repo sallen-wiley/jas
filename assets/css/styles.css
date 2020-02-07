@@ -1,0 +1,93 @@
+/* mdi */
+
+.mdi {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  line-height: 1;
+  font-size: 24px;
+}
+
+.mdi.mdi-sm {
+  font-size: 18px;
+}
+
+.mdi.mdi-lg {
+  font-size: 36px;
+}
+
+.mdi.mdi-xl {
+  font-size: 48px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a.no-underline, button.no-underline {
+  text-decoration: none !important;
+}
+
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+.badge-notify {
+  transform: translate(30px, -10%);
+  position: absolute;
+  top: 0;
+  right: 50%;
+}
+
+/* weird circle thing for welcome pages */
+
+.circle-decoration {
+  position: relative;
+}
+
+.circle-decoration::after {
+  content: "";
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  float: left;
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  z-index: -1;
+  mix-blend-mode: color;
+}
+
+/* faux autocomplete */
+
+.faux-autocomplete .form-control + div {
+  display: none;
+}
+
+.faux-autocomplete .form-control:valid + div {
+  display: block;
+}
+
+.modal-dialog-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* button with toggle icon change */
+
+.toggle-icon:not(.active) .icon-active {
+  display: none;
+}
+
+.toggle-icon.active .icon-inactive {
+  display: none;
+}
+
