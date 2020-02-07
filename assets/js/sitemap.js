@@ -15,7 +15,8 @@ function genSiteMap() {
                 var $page = $(this);
                 var sitemapElement = document.getElementById("sitemap");
                 var linkUrl = $page.text(),
-                    removeDomain = linkUrl.replace('https://jas.bss.design/',''),
+                    linkUrl = linkUrl.replace('https://jas.bss.design/',siteDomain),
+                    removeDomain = linkUrl.replace(siteDomain,''),
                     removeType = removeDomain.replace('.html',''),
                     primaryNode = removeType.substring(0, removeType.indexOf("/")),
                     primaryNodeElement = document.getElementById(primaryNode),
