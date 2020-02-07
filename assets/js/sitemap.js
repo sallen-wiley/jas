@@ -1,8 +1,8 @@
 function genSiteMap() {
     $(document).ready(function(){
-        if ($.get('/sitemap.xml')) {
+        if (location.hostname == "jas.bss.design") {
             console.log("ths is the bss site");
-        } else if ($.get('/jas/sitemap.xml')) {
+        } else if (location.hostname == "sallen-wiley.github.io") {
             console.log("ths is the git pages site");
         };
         $.get('/sitemap.xml', function(d){
