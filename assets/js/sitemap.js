@@ -2,10 +2,12 @@ function genSiteMap() {
     $(document).ready(function(){
         if (location.hostname == "jas.bss.design") {
             // console.log("ths is the bss site");
-            var siteMapLoc = 'https://jas.bss.design/sitemap.xml'
+            var siteMapLoc = 'https://jas.bss.design/sitemap.xml',
+                siteDomain = 'https://jas.bss.design/'
         } else if (location.hostname == "sallen-wiley.github.io") {
             // console.log("ths is the git pages site");
-            var siteMapLoc = 'https://sallen-wiley.github.io/jas/sitemap.xml'
+            var siteMapLoc = 'https://sallen-wiley.github.io/jas/sitemap.xml',
+                siteDomain = 'https://sallen-wiley.github.io/jas/'
         };
         $.get(siteMapLoc, function(d){
             // alert( "Load was performed." );
