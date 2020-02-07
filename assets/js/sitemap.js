@@ -1,5 +1,10 @@
 function genSiteMap() {
     $(document).ready(function(){
+        if ($.get('https://jas.bss.design/sitemap.xml')) {
+            console.log("ths is the bss site");
+        } else if ($.get('https://sallen-wiley.github.io/jas/sitemap.xml')) {
+            console.log("ths is the git pages site");
+        };
         $.get('/sitemap.xml', function(d){
             // alert( "Load was performed." );
             $(d).find('loc').each(function(){
