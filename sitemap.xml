@@ -91,6 +91,9 @@
         <loc>https://jas.bss.design/journals/all-journals/atoz.html</loc>
     </url>
     <url>
+        <loc>https://jas.bss.design/journals/all-journals/atoz--search.html</loc>
+    </url>
+    <url>
         <loc>https://jas.bss.design/journals/all-journals/home.html</loc>
     </url>
     <url>
@@ -101,6 +104,9 @@
     </url>
     <url>
         <loc>https://jas.bss.design/journals/all-journals/subjects.html</loc>
+    </url>
+    <url>
+        <loc>https://jas.bss.design/journals/all-journals/subjects--search.html</loc>
     </url>
     <url>
         <loc>https://jas.bss.design/journals/all-journals/topics.html</loc>
@@ -188,6 +194,9 @@
     </url>
     <url>
         <loc>https://jas.bss.design/societies/home.html</loc>
+    </url>
+    <url>
+        <loc>https://jas.bss.design/societies/home--search.html</loc>
     </url>
     <url>
         <loc>https://jas.bss.design/z-archive/atoz.html</loc>
