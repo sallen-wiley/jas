@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>https://jas.bss.design/3.3/menu.html</loc>
+    </url>
+    <url>
+        <loc>https://jas.bss.design/3.3/settings.html</loc>
+    </url>
+    <url>
+        <loc>https://jas.bss.design/3.3/settings--export-ready.html</loc>
+    </url>
+    <url>
         <loc>https://jas.bss.design/accounts-and-authentication/institution/authentication.html</loc>
     </url>
     <url>
@@ -20,6 +29,12 @@
     </url>
     <url>
         <loc>https://jas.bss.design/accounts-and-authentication/society/society-selection--known-society--search.html</loc>
+    </url>
+    <url>
+        <loc>https://jas.bss.design/accounts-and-authentication/society/society-selection--search-example.html</loc>
+    </url>
+    <url>
+        <loc>https://jas.bss.design/accounts-and-authentication/society/society-selection--square-logos.html</loc>
     </url>
     <url>
         <loc>https://jas.bss.design/accounts-and-authentication/sponsored/login-form.html</loc>
@@ -181,6 +196,30 @@
         <loc>https://jas.bss.design/settings/downloads/by-size.html</loc>
     </url>
     <url>
+        <loc>https://jas.bss.design/settings/import-data/articles.html</loc>
+    </url>
+    <url>
+        <loc>https://jas.bss.design/settings/import-data/input-key.html</loc>
+    </url>
+    <url>
+        <loc>https://jas.bss.design/settings/import-data/input-key--error.html</loc>
+    </url>
+    <url>
+        <loc>https://jas.bss.design/settings/import-data/issues.html</loc>
+    </url>
+    <url>
+        <loc>https://jas.bss.design/settings/import-data/journals.html</loc>
+    </url>
+    <url>
+        <loc>https://jas.bss.design/settings/import-data/societies.html</loc>
+    </url>
+    <url>
+        <loc>https://jas.bss.design/settings/import-data/societies--deselect-all.html</loc>
+    </url>
+    <url>
+        <loc>https://jas.bss.design/settings/import-data/summary.html</loc>
+    </url>
+    <url>
         <loc>https://jas.bss.design/settings/keywords/keywords.html</loc>
     </url>
     <url>
@@ -206,6 +245,9 @@
     </url>
     <url>
         <loc>https://jas.bss.design/societies/home--search.html</loc>
+    </url>
+    <url>
+        <loc>https://jas.bss.design/z-archive/settings/import-data/issues.html</loc>
     </url>
     <url>
         <loc>https://jas.bss.design/z-archive/atoz.html</loc>
