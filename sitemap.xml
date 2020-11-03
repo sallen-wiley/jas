@@ -55,15 +55,6 @@
         <loc>https://jas.bss.design/accounts-and-authentication/get-access.html</loc>
     </url>
     <url>
-        <loc>https://jas.bss.design/archive/journals/subject--images.html</loc>
-    </url>
-    <url>
-        <loc>https://jas.bss.design/archive/journals/subjects-with-subject-group-journals.html</loc>
-    </url>
-    <url>
-        <loc>https://jas.bss.design/archive/splash.html</loc>
-    </url>
-    <url>
         <loc>https://jas.bss.design/article-experience/article-view.html</loc>
     </url>
     <url>
@@ -211,12 +202,6 @@
         <loc>https://jas.bss.design/settings/import-data/journals.html</loc>
     </url>
     <url>
-        <loc>https://jas.bss.design/settings/import-data/societies.html</loc>
-    </url>
-    <url>
-        <loc>https://jas.bss.design/settings/import-data/societies--deselect-all.html</loc>
-    </url>
-    <url>
         <loc>https://jas.bss.design/settings/import-data/summary.html</loc>
     </url>
     <url>
@@ -248,6 +233,12 @@
     </url>
     <url>
         <loc>https://jas.bss.design/z-archive/settings/import-data/issues.html</loc>
+    </url>
+    <url>
+        <loc>https://jas.bss.design/z-archive/settings/import-data/societies.html</loc>
+    </url>
+    <url>
+        <loc>https://jas.bss.design/z-archive/settings/import-data/societies--deselect-all.html</loc>
     </url>
     <url>
         <loc>https://jas.bss.design/z-archive/atoz.html</loc>
