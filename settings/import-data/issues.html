@@ -30,12 +30,12 @@
             <section class="my-3">
                 <div>
                     <div class="container">
-                        <p class="mb-1 small">Issues shown and checked here will be downloaded after you complete the import process.</p>
-                        <p class="mb-1 small"><strong>Please ensure you have enough storage on your device and enough allowance with your mobile data provider before continuing.</strong></p>
+                        <p class="mb-1 small">Issues shown and checked here will be downloaded after you complete the import process. Older issues will be unavailable for download.</p>
+                        <p class="mb-1 small"><strong>Please ensure you have enough device storage, and data allowance with your internet service provider.</strong></p>
                     </div>
                 </div>
             </section>
-            <section>
+            <section class="mb-3">
                 <div>
                     <div class="container">
                         <div class="d-flex justify-content-between align-items-baseline">
@@ -65,6 +65,25 @@
                         class="d-flex justify-content-between align-items-center"><span class="flex-fill py-2 text-muted font-weight-normal">{{journal.name}} - {{issue.name}}</span><small>63.8 MB</small><button class="btn btn-link d-inline-flex p-2 text-decoration-none" type="button"><span class="mdi mdi-checkbox-marked"></span></button></div>
                         </div>
                         </div>
+                        </section>
+                        <section class="mb-3">
+                            <div>
+                                <div class="container">
+                                    <div class="d-flex justify-content-start align-items-baseline">
+                                        <h2 class="h6">Issues no longer available</h2><button class="btn btn-link btn-sm" type="button" data-toggle="collapse" data-target="#collapse--old-issues">Show</button></div>
+                                </div>
+                            </div>
+                            <div id="collapse--old-issues" class="border-top border-bottom bg-white collapse">
+                                <div class="container">
+                                    <div class="d-flex justify-content-between align-items-center border-bottom"><span class="flex-fill py-2 text-muted font-weight-normal">{{journal.name}} - {{issue.name}}</span></div>
+                                    <div class="d-flex justify-content-between align-items-center border-bottom"><span class="flex-fill py-2 text-muted font-weight-normal">Earth's Future - Volume 3, Issues 5</span></div>
+                                    <div class="d-flex justify-content-between align-items-center border-bottom"><span class="flex-fill py-2 text-muted font-weight-normal">Earth's Future - Volume 4, Issues 8</span></div>
+                                    <div class="d-flex justify-content-between align-items-center border-bottom"><span class="flex-fill py-2 text-muted font-weight-normal">{{journal.name}} - {{issue.name}}</span></div>
+                                    <div class="d-flex justify-content-between align-items-center border-bottom"><span class="flex-fill py-2 text-muted font-weight-normal">{{journal.name}} - {{issue.name}}</span></div>
+                                    <div class="d-flex justify-content-between align-items-center border-bottom"><span class="flex-fill py-2 text-muted font-weight-normal">{{journal.name}} - {{issue.name}}</span></div>
+                                    <div class="d-flex justify-content-between align-items-center"><span class="flex-fill py-2 text-muted font-weight-normal">{{journal.name}} - {{issue.name}}</span></div>
+                                </div>
+                            </div>
                         </section>
                         </div>
                         <div class="d-flex flex-shrink-0 align-items-center border-top" style="height:49px;width:100%;">
