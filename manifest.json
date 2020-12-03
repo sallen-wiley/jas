@@ -1,16 +1,16 @@
 {
-"name": "MyApp",
-"short_name": "MyApp",
-"description": "MyApp description",
+"name": "Journal App Services",
+"short_name": "JAS",
+"description": "Prototype for Wiley Journal App Services",
 "version": "0.0.0.1",
 "manifest_version": 2,
 "default_locale": "en-GB",
 "author": "Stuart Allen",
-"start_url": "Home.aspx",
+"start_url": "index.html",
 "display": "standalone",
 "orientation": "portrait",
-"theme_color": "#015174",
-"background_color": "#F7F4F3",
+"theme_color": "#005274",
+"background_color": "#005274",
 "icons": [
 {
   "src": "images/app-icon-chrome.png",
