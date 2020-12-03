@@ -35,10 +35,10 @@
 ],
 "app": {
  "urls": [
-   "https://sallen-wiley.github.io/jas/"
+   "https://sallen-wiley.github.io/jas/index.html"
  ],
  "launch": {
-   "web_url": "https://sallen-wiley.github.io/jas/"
+   "web_url": "https://sallen-wiley.github.io/jas/index.html"
  },
  "background": {
    "scripts": [ "chrome.js" ]
