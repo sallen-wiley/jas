@@ -1,1 +1,1 @@
-{"short_name":"JAS","name":"Journal App Services Prototype","icons":[{"src":"/assets/img/192x192.png","type":"image/png","sizes":"192x192"},{"src":"/assets/img/512x512.png","type":"image/png","sizes":"512x512"}],"start_url":"/index.html","display":"fullscreen"}
+{"short_name":"JAS","name":"Journal App Services Prototype","icons":[{"src":"/assets/img/192x192.png","type":"image/png","sizes":"192x192"},{"src":"/assets/img/512x512.png","type":"image/png","sizes":"512x512"}],"start_url":"/jas/index.html","display":"minimal-ui"}
