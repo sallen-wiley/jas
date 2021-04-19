@@ -82,6 +82,9 @@
         <loc>https://jas.bss.design/articles/saved-articles.html</loc>
     </url>
     <url>
+        <loc>https://jas.bss.design/enhancements/onboarding/welcome.html</loc>
+    </url>
+    <url>
         <loc>https://jas.bss.design/enhancements/societies/favorite-societies.html</loc>
     </url>
     <url>
@@ -103,6 +106,9 @@
         <loc>https://jas.bss.design/journal-experience/loi--listview.html</loc>
     </url>
     <url>
+        <loc>https://jas.bss.design/journal-experience/purchase-subscription.html</loc>
+    </url>
+    <url>
         <loc>https://jas.bss.design/journals/all-journals/atoz.html</loc>
     </url>
     <url>
@@ -112,7 +118,13 @@
         <loc>https://jas.bss.design/journals/all-journals/home.html</loc>
     </url>
     <url>
+        <loc>https://jas.bss.design/journals/all-journals/journals--by-society.html</loc>
+    </url>
+    <url>
         <loc>https://jas.bss.design/journals/all-journals/journals--by-subject.html</loc>
+    </url>
+    <url>
+        <loc>https://jas.bss.design/journals/all-journals/societies.html</loc>
     </url>
     <url>
         <loc>https://jas.bss.design/journals/all-journals/subject-groups.html</loc>
