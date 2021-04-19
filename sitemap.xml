@@ -181,7 +181,10 @@
         <loc>https://jas.bss.design/search/home.html</loc>
     </url>
     <url>
-        <loc>https://jas.bss.design/search/results.html</loc>
+        <loc>https://jas.bss.design/search/results--articles.html</loc>
+    </url>
+    <url>
+        <loc>https://jas.bss.design/search/results--journals.html</loc>
     </url>
     <url>
         <loc>https://jas.bss.design/search/search--date.html</loc>
