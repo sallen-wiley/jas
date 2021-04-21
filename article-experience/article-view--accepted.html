@@ -27,13 +27,12 @@
 </head>
 
 <body>
-    <div class="d-flex flex-shrink-0 justify-content-between align-items-center px-1 text-white w-100" style="height: 20px;z-index: 1060;position: fixed;top: 0;left: 0;width: 100%;"><span style="font-size:12px;line-height:12px;">AT&amp;T</span><span style="font-size:12px;line-height:12px;">16:28</span><span style="font-size:12px;line-height:12px;">100%</span></div>
-    <div class="menu menu--visible">
+    <div class="d-none menu">
         <div class="bg-light d-flex app-menu">
             <div>
                 <div style="height: 20px;"></div>
             </div>
-            <div class="d-flex flex-row flex-grow-1 menu-content show-panels">
+            <div class="d-flex flex-row flex-grow-1 menu-content">
                 <div class="menu-tabs">
                     <div class="d-flex justify-content-between align-items-center" style="height: 44px;position:relative;"><a class="d-flex align-items-center text-decoration-none text-light" href="journals--all-journals.html"><i class="material-icons">chevron_left</i></a>
                         <div style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);"><span class="text-truncate">Article Menu</span></div><a class="d-flex align-items-center text-decoration-none mr-2" href="#"><i class="material-icons">clear</i></a>
@@ -60,38 +59,70 @@
                 <div class="menu-panels h-100">
                     <div class="d-flex flex-column h-100 menu-panel--1">
                         <div class="d-flex flex-shrink-0 justify-content-between align-items-center w-100" style="height: 44px;position:relative;"><a class="d-flex align-items-center text-decoration-none" href="#"><i class="material-icons">chevron_left</i></a>
-                            <div style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);"><span class="text-truncate">Figures</span></div><a class="d-flex align-items-center text-decoration-none mr-2" href="#"><i class="material-icons">clear</i></a>
+                            <div style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);"><span class="text-truncate">Information</span></div><a class="d-flex align-items-center text-decoration-none mr-2" href="#"><i class="material-icons">clear</i></a>
                         </div>
                         <div class="flex-grow-1 p-2 bg-white border-top w-100" style="overflow-y: scroll;">
-                            <div class="mb-3">
-                                <div class="d-flex justify-content-between">
-                                    <h3 class="h6">Figure 1</h3>
+                            <div class="text-center mb-3"><button class="btn btn-primary btn-block btn-sm" type="button">Open on Wiley Online Library</button></div>
+                            <div class="mb-3 border-bottom">
+                                <div class="d-flex justify-content-between align-items-baseline">
+                                    <h3 class="h5">Key Words</h3><small>set alert</small>
                                 </div>
-                                <div><img class="img-thumbnail img-fluid" src="https://source.unsplash.com/600x300/?biology"></div>
+                                <div>
+                                    <div class="d-flex justify-content-between align-items-center py-2 border-bottom"><span>asymptotics</span>
+                                        <div class="d-inline-flex align-items-center">
+                                            <div class="form-check custom-checkbox--ios-toggle"><input class="form-check-input" type="checkbox" id="formCheck-abc"><label class="form-check-label" for="formCheck-abc">&nbsp;</label></div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center py-2"><span>multiscale</span>
+                                        <div class="d-inline-flex align-items-center">
+                                            <div class="form-check custom-checkbox--ios-toggle"><input class="form-check-input" type="checkbox" id="formCheck-abc"><label class="form-check-label" for="formCheck-abc">&nbsp;</label></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="mb-3">
+                            <div class="mb-3 pb-3 border-bottom">
                                 <div class="d-flex justify-content-between">
-                                    <h3 class="h6">Figure 2</h3>
+                                    <h3 class="h5">DOI</h3>
                                 </div>
-                                <div><img class="img-thumbnail img-fluid" src="https://source.unsplash.com/600x300/?abstract"></div>
+                                <div>
+                                    <p class="mb-0">10.1029/2018EA000439</p>
+                                </div>
                             </div>
-                            <div class="mb-3">
+                            <div class="mb-3 pb-3 border-bottom">
                                 <div class="d-flex justify-content-between">
-                                    <h3 class="h6">Figure 3</h3>
+                                    <h3 class="h5">Reference</h3>
                                 </div>
-                                <div><img class="img-thumbnail img-fluid" src="https://source.unsplash.com/600x300/?cell"></div>
+                                <div>
+                                    <p class="mb-0"><strong>Volume:</strong> 5<br><strong>Issue:</strong> 11<br><strong>Page:</strong> 668-675</p>
+                                </div>
                             </div>
-                            <div class="mb-3">
+                            <div class="mb-3 pb-3 border-bottom">
                                 <div class="d-flex justify-content-between">
-                                    <h3 class="h6">Figure 1</h3>
+                                    <h3 class="h5">Publication History</h3>
                                 </div>
-                                <div><img class="img-thumbnail img-fluid" src="https://source.unsplash.com/600x300/?biology"></div>
+                                <div>
+                                    <p class="mb-1"><strong>Article first published online:</strong><br>2017-12-01</p>
+                                    <p class="mb-1"><strong>Manuscript accepted:</strong><br>2017-10-24</p>
+                                    <p class="mb-0"><strong>Manuscript received:</strong><br>2017-07-24</p>
+                                </div>
                             </div>
-                            <div class="mb-3">
+                            <div class="mb-3 pb-3 border-bottom">
                                 <div class="d-flex justify-content-between">
-                                    <h3 class="h6">Figure 1</h3>
+                                    <h3 class="h5">Index terms</h3>
                                 </div>
-                                <div><img class="img-thumbnail img-fluid" src="https://source.unsplash.com/600x300/?biology"></div>
+                                <div>
+                                    <ul class="mb-1">
+                                        <li>Cretaceous</li>
+                                        <li>Submarine tectonics and volcanism</li>
+                                        <li>Volcanic gases</li>
+                                        <li>Biogeochemical cycles, processes, and modeling</li>
+                                        <li>Major and trace element geochemistry</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mb-3 pb-3 border-bottom"><button class="btn btn-primary btn-sm" type="button">Request Permission</button></div>
+                            <div class="mb-3 pb-3 border-bottom">
+                                <p><small>© 2017 American Geophysical Union. All rights reserved</small></p>
                             </div>
                         </div>
                     </div>
@@ -99,17 +130,14 @@
             </div>
         </div>
     </div>
-    <div class="d-flex flex-column" style="width:100vw;height:100vh;">
+    <div class="d-flex flex-column article-with-slider" style="width:100vw;height:100vh;">
         <div style="background-color: #258fcd;">
-            <div style="height: 20px;"></div>
-            <div class="d-flex justify-content-between align-items-center" style="height: 44px;width: 100%;position: relative;"><a class="text-white d-flex align-items-center text-decoration-none" href="journals--journal--issues--gridview.html"><i class="material-icons">chevron_left</i></a>
-                <div style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);"><span class="text-truncate text-white">Cosmic-ray Neutron Rov...</span></div>
-                <div class="d-flex">
-                    <div class="d-flex btn p-2 toggle-icon text-white" data-toggle="button"><i class="material-icons icon-inactive">star_border</i><i class="material-icons icon-active">star</i></div><button class="btn btn-link text-white d-flex p-2 text-decoration-none menu-icon" type="button"><span class="mdi mdi-dots-horizontal-circle-outline"></span></button>
-                </div>
+            <div class="d-flex justify-content-between align-items-center" style="height: 44px;width: 100%;position: relative;"><a class="text-white d-flex align-items-center text-decoration-none" href="journals--journal--issue-toc.html"><i class="material-icons">chevron_left</i></a>
+                <div style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);"><a href="#"><img class="img-fluid" src="https://onlinelibrary.wiley.com/pb-assets/journal-banners/15532712-1501384745770.jpg" width="200"></a></div>
+                <div class="d-flex"><button class="btn btn-link text-white d-flex p-2 toggle-icon text-decoration-none" type="button" data-toggle="button"><i class="material-icons icon-inactive">star_border</i><i class="material-icons icon-active">star</i></button><button class="btn btn-link text-white d-flex p-2 text-decoration-none menu-icon" type="button"><span class="mdi mdi-dots-horizontal-circle-outline"></span></button></div>
             </div>
         </div>
-        <div class="d-flex flex-column flex-grow-1" style="overflow-y: auto;background-color: #EFEFF0;">
+        <div class="d-flex flex-column flex-grow-1" style="overflow-y: auto;background-color: #EFEFF0;-webkit-overflow-scrolling: touch;">
             <section class="mb-3">
                 <div class="border-bottom bg-white pt-3">
                     <div class="container">
@@ -128,21 +156,20 @@
                 </div>
             </section>
             <section class="mb-3">
-                <div class="border-top border-bottom bg-white pt-3">
+                <div>
                     <div class="container">
-                        <h2 class="h5">Abstract</h2>
-                        <p>This paper provides evidence on how corporate multinationality from the perspective of acquiring firms relates to M&amp;A returns. Using multivariate regressions and a large dataset of over 6,000 M&amp;As (both cross‐border and domestic) by UK firms during 1987 to 2014, the paper finds multinationality to be associated with significantly higher short‐run announcement returns and long‐run operating performance. While the multinationality premium (higher M&amp;A returns for multinationals) persists over time, it seems to be restricted to firms with superior resource/managerial capabilities and minimal agency problems. Finally, the multinationality premium appears to be driven by foreign acquisitions into advanced economies. The results are robust to correcting for sample selection bias and controlling for several firm and deal characteristics, as well as accounting for firm‐, industry‐, and year‐fixed effects. Collectively, the findings imply that multinationality could be a source of value creation for acquiring firms, particularly in foreign acquisitions, which tend to be complex, and, thereby, require superior managerial capabilities to succeed.</p>
+                        <div class="text-white p-3" style="background: linear-gradient(-45deg,#005274 0,#068853 100%);">
+                            <p class="mb-1 smaller">This is an <strong>Accepted Article</strong> and the full version has not been prepared for online reading.</p>
+                            <p class="small mb-2">To read the full version of this paper, you must download the PDF.</p><button class="btn btn-outline-light d-flex align-items-center mx-auto" type="button"><span class="mdi mdi-download-circle-outline mr-1"></span>Download PDF</button>
+                        </div>
                     </div>
                 </div>
             </section>
             <section class="mb-3">
                 <div class="border-top border-bottom bg-white pt-3">
                     <div class="container">
-                        <h2 class="h5">Introduction</h2>
-                        <p>An integral component of building and bridge construction codes, which set standards for infrastructure design, is guidance on the expected magnitude of local precipitation extremes. The National Building Code of Canada (NCBC,&nbsp;<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018EF001001#eft2489-bib-0022">2005</a>), for example, includes estimates of the 10‐year return level for 15‐min rainfall accumulation and 50‐year return level for 1‐day rainfall accumulation for hundreds of communities across Canada. These estimates, which are based on station data, have historically been produced assuming a stationary climate. There is, however, an accumulating body of evidence indicating that the hydrological cycle is changing in response to anthropogenic global warming. Increases in extreme precipitation have been observed (e.g., Donat et al.,&nbsp;<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018EF001001#eft2489-bib-0007">2016</a>; Westra et al.,&nbsp;<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018EF001001#eft2489-bib-0036">2013</a>) and can be attributed to human influence at large spatial scales (e.g., Fischer &amp; Knutti,&nbsp;<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018EF001001#eft2489-bib-0010">2015</a>; Min et al.,&nbsp;<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018EF001001#eft2489-bib-0021">2011</a>; Zhang et al.,&nbsp;<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018EF001001#eft2489-bib-0040">2013</a>). The intensity of extreme precipitation is projected to continue to increase in the future (e.g., Kharin et al.,&nbsp;<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018EF001001#eft2489-bib-0017">2013</a>,&nbsp;<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018EF001001#eft2489-bib-0016">2018</a>).<br></p>
-                        <h2 class="h5">First Level Heading</h2>
-                        <h2 class="h6">Second Level Heading</h2>
-                        <p>An integral component of building and bridge construction codes, which set standards for infrastructure design, is guidance on the expected magnitude of local precipitation extremes. The National Building Code of Canada (NCBC,&nbsp;<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018EF001001#eft2489-bib-0022">2005</a>), for example, includes estimates of the 10‐year return level for 15‐min rainfall accumulation and 50‐year return level for 1‐day rainfall accumulation for hundreds of communities across Canada. These estimates, which are based on station data, have historically been produced assuming a stationary climate. There is, however, an accumulating body of evidence indicating that the hydrological cycle is changing in response to anthropogenic global warming. Increases in extreme precipitation have been observed (e.g., Donat et al.,&nbsp;<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018EF001001#eft2489-bib-0007">2016</a>; Westra et al.,&nbsp;<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018EF001001#eft2489-bib-0036">2013</a>) and can be attributed to human influence at large spatial scales (e.g., Fischer &amp; Knutti,&nbsp;<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018EF001001#eft2489-bib-0010">2015</a>; Min et al.,&nbsp;<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018EF001001#eft2489-bib-0021">2011</a>; Zhang et al.,&nbsp;<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018EF001001#eft2489-bib-0040">2013</a>). The intensity of extreme precipitation is projected to continue to increase in the future (e.g., Kharin et al.,&nbsp;<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018EF001001#eft2489-bib-0017">2013</a>,&nbsp;<a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018EF001001#eft2489-bib-0016">2018</a>).<br></p>
+                        <h2 class="h5">Abstract</h2>
+                        <p>This paper provides evidence on how corporate multinationality from the perspective of acquiring firms relates to M&amp;A returns. Using multivariate regressions and a large dataset of over 6,000 M&amp;As (both cross‐border and domestic) by UK firms during 1987 to 2014, the paper finds multinationality to be associated with significantly higher short‐run announcement returns and long‐run operating performance. While the multinationality premium (higher M&amp;A returns for multinationals) persists over time, it seems to be restricted to firms with superior resource/managerial capabilities and minimal agency problems. Finally, the multinationality premium appears to be driven by foreign acquisitions into advanced economies. The results are robust to correcting for sample selection bias and controlling for several firm and deal characteristics, as well as accounting for firm‐, industry‐, and year‐fixed effects. Collectively, the findings imply that multinationality could be a source of value creation for acquiring firms, particularly in foreign acquisitions, which tend to be complex, and, thereby, require superior managerial capabilities to succeed.</p>
                     </div>
                 </div>
             </section>

@@ -58,6 +58,9 @@
         <loc>https://jas.bss.design/article-experience/article-view.html</loc>
     </url>
     <url>
+        <loc>https://jas.bss.design/article-experience/article-view--accepted.html</loc>
+    </url>
+    <url>
         <loc>https://jas.bss.design/article-experience/article-view--dark-mode.html</loc>
     </url>
     <url>
@@ -184,6 +187,9 @@
         <loc>https://jas.bss.design/search/results--articles.html</loc>
     </url>
     <url>
+        <loc>https://jas.bss.design/search/results--articles--relevant.html</loc>
+    </url>
+    <url>
         <loc>https://jas.bss.design/search/results--journals.html</loc>
     </url>
     <url>
@@ -191,9 +197,6 @@
     </url>
     <url>
         <loc>https://jas.bss.design/search/search--date--custom.html</loc>
-    </url>
-    <url>
-        <loc>https://jas.bss.design/search/search--in-journal.html</loc>
     </url>
     <url>
         <loc>https://jas.bss.design/settings/downloads/by-publication.html</loc>
